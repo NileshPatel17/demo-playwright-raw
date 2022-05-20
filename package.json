@@ -1,0 +1,18 @@
+{
+  "name": "demo-playwright-raw",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "npm run build -- --watch",
+    "prestart": "npm run build",
+    "start": "node lib/index.js"
+  },
+  "keywords": [],
+  "author": "bas@basarat.com",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.19.2",
+    "typescript": "4.6.2"
+  }
+}
